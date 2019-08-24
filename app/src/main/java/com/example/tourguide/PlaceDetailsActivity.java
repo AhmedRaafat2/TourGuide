@@ -26,8 +26,8 @@ public class PlaceDetailsActivity extends AppCompatActivity {
 
         placeImage.setImageResource(recieved_place.getImageForPlace());
         plceName.setText(recieved_place.getNameForPlace());
-        placeAddress.setText("Address : "+recieved_place.getAddressForPlace());
-        placeDescription.setText("Description :- \n"+recieved_place.getDescriptionForPlace());
+        placeAddress.setText(getResources().getString(R.string.placeAddressPrefix)+recieved_place.getAddressForPlace());
+        placeDescription.setText(getResources().getString(R.string.placeDescriptioPrefix)+recieved_place.getDescriptionForPlace());
 
     }
 }
