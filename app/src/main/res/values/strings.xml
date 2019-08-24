@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+    <string name="hotels_tab_title">Hotels</string>
+    <string name="places_tab_title">Places</string>
+    <string name="restaurant_tab_title">Restaurant</string>
+
+    <string name="hotel1_name">Four Seasons Hotel</string>
+    <string name="hotel1_address">399 El Geish Road , San Stefano</string>
+    <string name="hotel2_name">Cecil Hotel Alexandria</string>
+    <string name="hotel2_address">16 Saad Zagloul Square</string>
+    <string name="hotel3_name">Hilton Green Plaza</string>
+    <string name="hotel3_address">14th of May Bridge Road - Smouha</string>
+    <string name="hotel4_name">The Grand Plaza</string>
+    <string name="hotel4_address">14th May Avenue, Smouha</string>
+    <string name="hotel5_name">Royal Crown Hotel</string>
+    <string name="hotel5_address">159 Cornish Road, Cleopatra</string>
+    <string name="hotel6_name">Semiramis Hotel</string>
+    <string name="hotel6_address">80 El Corniche Road Raml Station</string>
+    <string name="hotel7_name">Tolip Hotel Alexandria</string>
+    <string name="hotel7_address">Moustafa Kamel, Corniche</string>
+
+    <string name="restaurant1_name">Roberto\'s Italian</string>
+    <string name="restaurant1_address">14th of May Bridge Road</string>
+    <string name="restaurant2_name">Ginger</string>
+    <string name="restaurant2_address">14th of May Bridge Road</string>
+    <string name="restaurant3_name">White and Blue</string>
+    <string name="restaurant3_address">Qaitbay Str.</string>
+    <string name="restaurant4_name">Sea Gull</string>
+    <string name="restaurant4_address">Elmax, Alexandria 21599</string>
+    <string name="restaurant5_name">Byblos Restaurant</string>
+    <string name="restaurant5_address">399 El Geish Road</string>
+    <string name="restaurant6_name">Delices</string>
+    <string name="restaurant6_address">46 Saad Zhaghloul Street</string>
+    <string name="restaurant7_name">China House</string>
+    <string name="restaurant7_address">12 Mohamed Ahmed Afify St.</string>
+
+
+    <string name="place1_name">Bibliotheca Alexandrina</string>
+    <string name="place1_address">El Geish Road , Shatbi.</string>
+    <string name="place1_description">A re-imagining of Alexandria\'s ancient Great Library, this gorgeously designed cultural center contains a host of museums,
+        as well as one of the modern world\'s most ambitious libraries. Its architecture — a giant sun disk — presides over the waterfront Corniche, while inside,
+        a huge reading room can hold eight million volumes.\nBelow the main library, visitors can explore a range of beautifully curated exhibitions.The Manuscript Museum,
+        with its magnificent collection of ancient texts and scrolls, and the Antiquities Museum, with its Greco-Roman antiquities
+        and statuary found during underwater exploration in the harbor, are the two prime attractions. But there are also rotating art exhibitions,
+        a permanent Egyptian folk art collection, and a Science Museum and Planetarium that are aimed squarely at children.\nOfficial site: www.bibalex.org</string>
+
+    <string name="place2_name">Fort Qaitbey</string>
+    <string name="place2_address">Corniche, Eastern Harbour</string>
+    <string name="place2_description">Walk the long shore-front Corniche road heading west, and you\'ll finally arrive at Fort Qaitbey.
+        It may be a poor substitute for what was once the site of the mighty Pharos Lighthouse — one of the seven wonders of the ancient world
+        — but this squat and dinky fort has been standing guard over Alexandria\'s eastern harbor since 1480. The Pharos itself said adieu to
+        Alexandria in 1303 when it was toppled by a violent earthquake.\nFort Qaitbey was built by Mamluke Sultan Qaitbey in an effort to fortify
+        this important Egyptian port from attack, and rubble from the toppled lighthouse was used in its construction. Inside, you can explore the
+        series of stone-walled chambers and climb up to the roof to look out over the Mediterranean.</string>>
+
+    <string name="place3_name">Corniche</string>
+    <string name="place3_address">Corniche, st.</string>
+    <string name="place3_description">Downtown Alexandria\'s wide waterfront road is as much a symbol of the city as any of its monuments. It\'s here that you get a real feel for the era of cosmopolitan elegance and decadence that marked this city in the late 19th and early 20th centuries. Much of the architecture from this era still stands along the Corniche, though these days, much of it is heavily dilapidated and falling into disrepair.\nDuring your stroll check out the colonial remnants of the Steigenberger Cecil Hotel and Paradise Inn Windsor Palace Hotel, which are still the key harbor-side addresses for visitors who want to wallow in bygone-days ambience. The Cecil played host to Winston Churchill and the British Secret Service during WWII, and both hotels have endeavored to restore and keep much of their original Edwardian charm.</string>>
+
+    <string name="place4_name">Kom el-Dikka</string>
+    <string name="place4_address">Yousri Street, Alexandria</string>
+    <string name="place4_description">Nobody thought much of the ancient rubble mound in central Alexandria until, in 1947, they decided to clear the site to make way for new housing. Instead, the area known as Kom el-Dikka ("Mound of Rubble") revealed a whole swag of ancient ruins, including a small Roman theater. Excavation work commenced, and today, this park area includes the remnants of a Ptolemaic temple and the mosaic flooring of a wealthy Roman-era dwelling now known as the Villa of the Birds.</string>>
+
+
+    <string name="place5_name">Catacombs of Kom el-Shuqqafa</string>
+    <string name="place5_address">Kom el-Shuqqafa</string>
+    <string name="place5_description">The Catacombs of Kom el-Shuqqafa are hewn from the rock on the southern slopes of a hill, in the Carmous district. Thought to date from the 2nd century AD, they offer an admirable example of the characteristic Alexandrian fusion of Egyptian and Greco-Roman styles. Discovered in 1900 (thanks to a donkey falling into them) they are laid out on several levels of sarcophagi and loculi (shelf tomb) chambers.\nA spiral staircase leads down into the ground to the main rotunda. To the right, you can enter the main burial chamber and also the Sepulchral Chapel with 91 loculi, each large enough to accommodate three or four mummies. To the left is a large room known as the Triclinium Funebre, which would have been used for banquets in honor of the dead.</string>>
+
+    <string name="place6_name">Pompey\'s Pillar</string>
+    <string name="place6_address">southwest of the city</string>
+    <string name="place6_description">In Carmous (in the southwest of the city) is a hill littered with the remains of ancient walls, architectural fragments, and rubble on which Alexandria\'s only ancient monument is left standing. Pompey\'s Pillar rises from the ruins of the ancient and famous Serapeion (Temple of Serapis), which was once used to store the overflow of manuscripts from the Great Library of Alexandria. This column of red Aswan granite with a Corinthian capital, standing on a badly ruined substructure and rising to a height of almost 27 meters, actually has nothing to do with Pompey and was instead set up in AD 292 in honor of Diocletian, who supplied food for the starving population after the siege of the city.</string>>
+
+    <string name="place7_name">Montazah Gardens</string>
+    <string name="place7_address">El Montazah</string>
+    <string name="place7_description">An oasis of calm on the city\'s eastern edge, Montazah is a lush haven of tall palm trees, trimmed lawns, and blossoming flowers that was once off-limits to all but the royal court and their hangers on. Built as a hunting lodge in the 1890s by Khedive Abbas Hilmi, it was later extended substantially by King Fuad and replaced Ras el Tin Palace as the royal family\'s summer house.\nThe eccentrically designed Montazah Palace, with its ornate Florentine-inspired towers and Rococo flourishes, is not open to the public, but everyone is welcome to stroll within the sprawling gardens, which can be a welcome slice of nature after a day spent within Alexandria\'s hustle. On the coastal end of the park is a small beach with a peculiarly whimsical bridge to a small island.\nIf you need a dose of tranquility, a trip to Montazah is just the ticket to restore your sanity before diving back into the inner city fray. Minibuses heading west up the shore-front Corniche road all pass by Montazah. They charge between 1:2 EGP depend on where you board.</string>>
+
+    <string name="place8_name">Ras el-Tin Palace</string>
+    <string name="place8_address">Ras el-Tin</string>
+    <string name="place8_description">Sumptuous Ras el-Tin Palace was once a summer escape for Egypt\'s sultans when the desert heat of Cairo got too much to bear. It\'s also the famed location where King Farouk — Egypt\'s last king — officially abdicated in 1952 before sailing out of Alexandria\'s harbor and into exile in Italy. Today, the palace is used by the Egyptian navy, which means its glorious interiors are out of bounds to casual visitors, but the monumental white facade, best viewed from the harbor waters, is a must-see.</string>>
+
+    <string name="place9_name">Cleopatra\'s Palace</string>
+    <string name="place9_address">Cleopatra Corniche St.</string>
+    <string name="place9_description"></string>>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
