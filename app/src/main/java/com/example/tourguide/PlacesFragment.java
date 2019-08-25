@@ -1,5 +1,6 @@
 package com.example.tourguide;
 
+import android.content.Intent;
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -11,7 +12,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 import java.util.ArrayList;
 
-public class PlacesFragment extends Fragment implements View.OnClickListener {
+public class PlacesFragment extends Fragment implements View.OnClickListener,ItemClickListener {
 
     private RecyclerView placesRecyclerView;
     private ListView listView;
@@ -45,11 +46,24 @@ public class PlacesFragment extends Fragment implements View.OnClickListener {
         placesRecyclerView.setAdapter(adapter);
         placesRecyclerView.setOnClickListener(this);
 
+        adapter.setClickListener(this);
         return placesFragmentView;
     }
 
     @Override
     public void onClick(View view) {
         Toast.makeText(getContext(),"A7aaaaaaaaaa",Toast.LENGTH_LONG).show();
+    }
+
+    @Override
+    public void onClick(View view, int position) {
+
+        //Fore start new Activity with sendind the current data for the selected place in position..
+        Place place = places.get(position);
+        Intent intent = new Intent(getContext(),PlaceDetailsActivity.class);
+        intent.putExtra("current_place",place);
+        Toast.makeText(getContext(),""+place.getNameForPlace(),Toast.LENGTH_LONG).show();
+        getContext().startActivity(intent);
+
     }
 }

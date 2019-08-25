@@ -14,10 +14,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
 
-public class PlacesListAdapter extends RecyclerView.Adapter<PlacesListAdapter.placeHolder> implements View.OnClickListener {
+public class PlacesListAdapter extends RecyclerView.Adapter<PlacesListAdapter.placeHolder> implements  ItemClickListener {
     private Context context;
     private ArrayList<Place> places;
     private Place currentPlace;
+    private ItemClickListener clickListener;
     public PlacesListAdapter(@NonNull Context context, @NonNull ArrayList<Place> places) {
         this.context = context;
         this.places = places;
@@ -36,7 +37,7 @@ public class PlacesListAdapter extends RecyclerView.Adapter<PlacesListAdapter.pl
         holder.placeName.setText(currentPlace.getNameForPlace());
         holder.placeImage.setImageResource(currentPlace.getImageForPlace());
         //For adding on item click listner..
-        holder.placeParentView.setOnClickListener(this);
+
     }
 
     @Override
@@ -44,16 +45,17 @@ public class PlacesListAdapter extends RecyclerView.Adapter<PlacesListAdapter.pl
         return places.size();
     }
 
-    @Override
-    public void onClick(View view) {
-
-        //Fore start new Activity with sendind the current data for the selected place in position..
-        Intent intent = new Intent(context,PlaceDetailsActivity.class);
-        intent.putExtra("current_place",currentPlace);
-        Toast.makeText(context,""+currentPlace.getNameForPlace(),Toast.LENGTH_LONG).show();
-        context.startActivity(intent);
+    public void setClickListener(ItemClickListener itemClickListener) {
+        this.clickListener = itemClickListener;
     }
-    class placeHolder extends RecyclerView.ViewHolder{
+
+
+    @Override
+    public void onClick(View view, int position) {
+
+    }
+
+    class placeHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         ImageView placeImage;
         TextView placeName;
@@ -64,6 +66,12 @@ public class PlacesListAdapter extends RecyclerView.Adapter<PlacesListAdapter.pl
             placeImage = itemView.findViewById(R.id.place_imageView);
             placeName = itemView.findViewById(R.id.place_name_textView);
             placeParentView = itemView.findViewById(R.id.item_place_parent_view);
+            itemView.setOnClickListener(this);
+        }
+
+        @Override
+        public void onClick(View view) {
+            if (clickListener != null) clickListener.onClick(view, getAdapterPosition());
         }
     }
 }
