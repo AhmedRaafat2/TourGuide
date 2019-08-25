@@ -8,7 +8,7 @@ import androidx.fragment.app.FragmentStatePagerAdapter;
 public class FragmentAdapter extends FragmentStatePagerAdapter {
 
     // tab titles
-    private String[] tabTitles = new String[]{"Restaurants", "Places", "Hotels"};
+    private String[] tabTitles = new String[]{"Restaurants", "Places", "Hotels", "Local Guide"};
 
     public FragmentAdapter(FragmentManager fm) {
         super(fm);
@@ -22,7 +22,9 @@ public class FragmentAdapter extends FragmentStatePagerAdapter {
             return new PlacesFragment();
         }else if (position == 2){
             return new HotelsFragment();
-        }else {
+        }else if (position == 3){
+            return new LocalGuideFragment();
+        } else{
             return null;
         }
     }
